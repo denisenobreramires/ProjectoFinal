@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+        <!-- 1. Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+        <!-- 2. Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
+    
+        <!-- 3. CSS próprio -->
+        <link rel="stylesheet" href="/css/style.css" />
+    
+        <!-- 4. JS próprio -->
+        <script src="/js/script.js" defer></script>
+    
+        <title>O meu Portefolio</title>
+    </head>
+  <body>
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+   
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Denise Ramires</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <!-- Links de navegação — adiciona o me-auto aqui -->
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Sobre Mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Hobbies</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Inspiração</a>
+          </li>
+        </ul>
+  
+        <!-- Botões de ação -->
+        <div class="d-flex gap-2">
+          <button class="btn btn-outline-secondary" id="btnDarkMode">🌙 DarkMode</button>
+          <!-- Botão Trocar Imagem — tenta tu! -->
+          <button class="btn btn-outline-warning" id="btnTrocarImagem">🎬 Tema</button>
+        </div>
+  
+      </div>
+    </div>
+  </nav>
+
+  <br>
+
+
+<!--CARD APRESENTAÇÃO-->
+<!-- colocar o card num container para alinhar | é margem no topo — afasta um bocado da navbar. -->
+<div class="container-fluid mt-4">
+    <div class="card mx-auto" style="width: 22rem;">
+      <img src="/images/deniseRamires.png" class="card-img-top" alt="Foto Denise">
+      <div class="card-body">
+        <h5 class="card-title">Sobre Mim</h5>
+        <p class="card-text">Gosto de viajar, estar com a família e de ter tempo só para mim — porque é aí que recarrego ideias.
+
+            Sou designer gráfica de formação e durante vários anos trabalhei na edição de imagem para e-commerce, onde ganhei olho ao detalhe (e muita paciência 😅), incluindo projetos para a Salsa.
+            
+            Neste momento estou numa fase de mudança: a estudar e a entrar no mundo da tecnologia. Quero juntar o melhor dos dois lados — design e desenvolvimento — e criar coisas que não sejam só bonitas, mas que também façam sentido e funcionem bem.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Pensamento Criativo</li>
+        <li class="list-group-item">Trabalho de Equipa</li>
+        <li class="list-group-item">Gestão de Tempo</li>
+      </ul>
+      <div class="card-body">
+        <a href="https://www.linkedin.com/in/deniseramires" class="card-link">LinkedIn</a>
+        <a href="https://www.instagram.com/denisenobreramires/" class="card-link">Instagram</a>
+        
+        <br>
+<!--Botãobotao Hobbies-->
+        <button class="btn btn-outline-dark" id="btnAdicionarHobby">+ Adicionar Hobby</button>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+  </body>
+  
+</html>
