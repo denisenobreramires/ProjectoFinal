@@ -41,3 +41,7 @@ btnTrocarImagem.addEventListener('click', function() {
     }
 }
 )   
+
+
+//Adicionar hobbies
+
