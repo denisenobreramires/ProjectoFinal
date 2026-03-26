@@ -1,6 +1,15 @@
 /* Card principal */
 .card {
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
+.night {
+    background-color: black;
+    color: white;
+}
+
+.day {
+    background-color: white;
+    color: black;
+}
