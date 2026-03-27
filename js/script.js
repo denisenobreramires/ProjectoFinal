@@ -162,22 +162,30 @@ formPerfil.addEventListener("submit", function(event) {
 // 2. Botão de reset
 
 let btnReset = document.getElementById('btnReset');
+let nomeOriginal = document.getElementById('perfilNome').innerText;
+let fraseOriginal = document.getElementById('perfilFrase').innerText;
+let imagemOriginal = document.getElementById('imagemTrocar').src;
 
 btnReset.addEventListener('click', function() {
     // repor tema
     document.querySelector("body").classList.remove("night");
     document.querySelector("body").classList.add("day");
     
+    document.getElementById("imagemTrocar").src = imagemOriginal;
+    document.getElementById("perfilNome").textContent = nomeOriginal;
+    document.getElementById("perfilFrase").textContent = fraseOriginal
+
+    // limpar formulário manualmente
+    document.getElementById("inputNome").value = "";
+    document.getElementById("inputFrase").value = "";
+    document.getElementById("inputCor").value = "#ffffff";
+    document.getElementById("inputFoto").value = "";
+
     // repor imagem
     document.getElementById("imagemTrocar").src = "./images/jumping.jpg";
-    
-    // repor nome e frase
-    document.getElementById("perfilNome").textContent = "DENISE RAMIRES";
-    document.getElementById("perfilFrase").textContent = "Gosto de viajar, estar com a família e de ter tempo só para mim - porque é aí que recarrego ideias.";
 
-    // limpar formulário
+    // repor cor do card
     document.querySelector(".card").style.backgroundColor = "";
-    document.getElementById("formPerfil").reset();
     
     // apagar contador
     localStorage.removeItem("contadorPerfil");

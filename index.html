@@ -1,183 +1,201 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-        <!-- 1. Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    
-        <!-- 2. Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
-    
-        <!-- 3. CSS próprio -->
-        <link rel="stylesheet" href="css/style.css" />
-    
-        <!-- 4. JS próprio -->
-        <script src="js/script.js" defer></script>
-    
-        <title>O meu Portefolio</title>
-    </head>
-  
-  
-<body class="day">
-
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-
-  
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">ACADEMIC WORK  |</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!DOCTYPE html>
+  <html lang="en">
+      <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       
-      <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- 1. Bootstrap CSS -->
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      
+          <!-- 2. Bootstrap JS -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
+      
+          <!-- 3. CSS próprio -->
+          <link rel="stylesheet" href="css/style.css" />
+      
+          <!-- 4. JS próprio -->
+          <script src="js/script.js" defer></script>
+      
+          <title>O meu Portefolio</title>
+      </head>
+    
+    
+  <body class="day">
 
-        <!-- Links de navegação -->
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Sobre Mim</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Hobbies</a>
-          </li>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
 
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Inspiração</a>
-          </li>
-        </ul>
-  
-    <!-- Botão Cor ALeatória -->
-    <div class="d-flex gap-2"> 
-      <button class="btn btn-outline-success"
-      id="btnCorAleatoria">🎨 Cor</button>
-
-        <!-- Botão de DarkNight -->
-        <div class="d-flex gap-2">
-          <button class="btn btn-outline-secondary" id="btnDarkMode">🌙 DarkMode</button>
-          <!-- ligar o JavaScript a este botão -->
-
-
-
-          <!-- Botão Trocar Imagem -->
-          <button class="btn btn-outline-warning" id="btnTrocarImagem">🎬 Tema</button>
-        </div>
-  
-      </div>
-    </div>
-  </nav>
-
-  <br>
-
-
-<!--CARD APRESENTAÇÃO-->
-<!-- colocar o card num container para alinhar | é margem no topo — afasta um bocado da navbar. -->
-<div class="container-fluid mt-4">
-  <div class="card">
-      <img src="./images/jumping.jpg" class="card-img-top" alt="Foto Denise" id="imagemTrocar">
-      <div class="card-body">
-        <h5 class="card-title" id="perfilNome">DENISE RAMIRES</h5>
-        <p></p>
-        <p class="card-text" id="perfilFrase">Gosto de viajar, estar com a família e de ter tempo só para mim - porque é aí que recarrego ideias.
-
-            Sou designer gráfica de formação e durante vários anos trabalhei na edição de imagem para e-commerce, onde ganhei olho ao detalhe (e muita paciência 😅), incluindo projetos para a Salsa.
-            <p></p>
-            Neste momento estou numa fase de mudança: a estudar e a entrar no mundo da tecnologia. Quero juntar o melhor dos dois lados - design e desenvolvimento - e criar coisas que não sejam só bonitas, mas que também façam sentido e funcionem bem.</p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">Pensamento Criativo</li>
-        <li class="list-group-item">Trabalho de Equipa</li>
-        <li class="list-group-item">Gestão de Tempo</li>
-      </ul>
-      <div class="card-body">
-        <a href="https://www.linkedin.com/in/deniseramires" class="card-link">LinkedIn</a>
-        <a href="https://www.instagram.com/denisenobreramires/" class="card-link">Instagram</a>
+    
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ACADEMIC WORK  |</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         
-        <br>
+        <div class="collapse navbar-collapse" id="navbarNav">
 
+          <!-- Links de navegação -->
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+            
+              <a class="nav-link active" href="#seccaoSobreMim">Sobre Mim</a>
+            </li>
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#seccaoHobbies">Hobbies</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#seccaoInspiracao">Inspiração</a>
+            </li>
+          </ul>
+    
+      <!-- Botão Cor ALeatória -->
+      <div class="d-flex gap-2"> 
+        <button class="btn btn-outline-success"
+        id="btnCorAleatoria">🎨 Cor</button>
+
+          <!-- Botão de DarkNight -->
+          <div class="d-flex gap-2">
+            <button class="btn btn-outline-secondary" id="btnDarkMode">🌙 DarkMode</button>
+            <!-- ligar o JavaScript a este botão -->
+
+
+
+            <!-- Botão Trocar Imagem -->
+            <button class="btn btn-outline-warning" id="btnTrocarImagem">🎬 Tema</button>
+          </div>
+    
+        </div>
+      </div>
+    </nav>
+
+    <br>
+
+
+  <!--CARD APRESENTAÇÃO-->
+  <!-- colocar o card num container para alinhar | é margem no topo — afasta um bocado da navbar. -->
+  <!--Section Sobre MIM-->
+  <div class="container-fluid mt-4" id="seccaoSobreMim">
+    <div class="card">
+
+      <div class="card-body text-center">
+        <p class="card-text fst-italic text-muted">"A aprender a juntar o melhor dos dois mundos."</p>
     </div>
 
-  </div> 
-<!-- SECÇÃO HOBBIES -->
-<div class="container-fluid mt-4" id="seccaoHobbies">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Hobbies</h5>
-    <ul class="list-group list-group-flush" id="listaHobbies">
-      <li class="list-group-item">Viajar</li>
-      <li class="list-group-item">Ler</li>
-      <li class="list-group-item">Cozinhar</li>
-    </ul>
-    <br>
-    <button class="btn btn-dark" id="btnAdicionarHobby">⊕ Add Hobbies</button>
+        <img src="images/jumping.jpg" class="card-img-top" alt="Foto Denise" id="imagemTrocar">
+        <div class="card-body">
+          <h5 class="card-title" id="perfilNome">DENISE RAMIRES</h5>
+          <p></p>x§
+          <p class="card-text" id="perfilFrase">Gosto de viajar, estar com a família e de ter tempo só para mim - porque é aí que recarrego ideias.
+
+              Sou designer gráfica de formação e durante vários anos trabalhei na edição de imagem para e-commerce, onde ganhei olho ao detalhe (e muita paciência 😅), incluindo projetos para a Salsa.
+              <br>
+              <br>
+              Neste momento estou numa fase de mudança: a estudar e a entrar no mundo da tecnologia. Quero juntar o melhor dos dois lados - design e desenvolvimento - e criar coisas que não sejam só bonitas, mas que também façam sentido e funcionem bem.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Pensamento Criativo</li>
+          <li class="list-group-item">Trabalho de Equipa</li>
+          <li class="list-group-item">Gestão de Tempo</li>
+        </ul>
+        <div class="card-body">
+          <a href="https://www.linkedin.com/in/deniseramires" class="card-link">LinkedIn</a>
+          <a href="https://www.instagram.com/denisenobreramires/" class="card-link">Instagram</a>
+          
+          <br>
+
+      </div>
+
+    </div> 
+  <!-- SECÇÃO HOBBIES -->
+  <div class="container-fluid mt-4" id="seccaoHobbies">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Hobbies</h5>
+      <ul class="list-group list-group-flush" id="listaHobbies">
+        <li class="list-group-item">Viajar</li>
+        <li class="list-group-item">Ler</li>
+        <li class="list-group-item">Cozinhar</li>
+      </ul>
+      <br>
+      <button class="btn btn-dark" id="btnAdicionarHobby">⊕ Add Hobbies</button>
+    </div>
   </div>
-</div>
-</div>
+  </div>
 
-<!-- SECÇÃO INSPIRAÇÃO -->
-<div class="container-fluid mt-4" id="seccaoInspiracao">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">ADORO GATOS!</h5>
-    
-    <!-- citação -->
-    <p id="citacao">Clica no botão para carregar uma citação</p>
-    
-    <!-- botão de Inspiraçao para chamar a API -->
-    <button class="btn btn-dark" id="btnInspiracao">Facts 🐈‍</button>
-    
-</div>
-</div>
-
-<!--Secção Formulario Personaliza -->
-
-<div class="container-fluid mt-4" id="seccaoFormulario">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Personalizar Perfil</h5>
-
-    <p id="contadorAtualizacoes"> - Perfil ainda não foi atualizado - </p>
-
-    <!-- Form Nome -->
-    <form id="formPerfil">
-
-      <div class="mb-3">  <!-- Classes -->
-        <label for="inputNome" class="form-label">Nome</label>
-        <input type="text" class="form-control" id="inputNome" name="nome"> <!-- id para javascrip -->
-      </div>
-
-<!-- Form Frase aoresentação -->
-      <div class="mb-3">
-        <label for="inputFrase" class="form-label">Frase de apresentação</label>
-        <textarea class="form-control" id="inputFrase" name="frase"rows="3"></textarea>
-      </div>
-
-      <!-- Input de Cor Favorita -->
-      <div class="mb-3">
-        <label for="inputCor" class="form-label">Cor favorita</label>
-        <input type="color" class="form-control form-control-color" id="inputCor" name="cor">
-      </div>
-
-      <!-- Input de Fotografia -->
-      <div class="mb-3">
-        <label for="inputFoto" class="form-label">Foto (URL)</label>
-        <input type="url" class="form-control" id="inputFoto" name="foto">
-      </div>
-
-      <!-- Botão Atualizar -->
-<button type="submit" class="btn btn-dark" id="btnAtualizarPerfil">
-        Atualizar Perfil
-      </button>
-    
-</form>
-    
-      <!-- Botão RESET -->
+  <!-- SECÇÃO INSPIRAÇÃO -->
+  <div class="container-fluid mt-4" id="seccaoInspiracao">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">OS GATOS INSPIRAM-ME!</h5>
       
-    <button class="btn btn-danger" id="btnReset">Reset</button>
-</div>
-</div>
+      <!-- citação -->
+      <p id="citacao">Clica no botão para carregar uma citação</p>
+      
+      <!-- botão de Inspiraçao para chamar a API -->
+      <button class="btn btn-dark" id="btnInspiracao">Facts 🐈‍</button>
+      
+  </div>
+  </div>
+
+  <!--Secção Formulario Personaliza -->
+
+  <div class="container-fluid mt-4" id="seccaoFormulario">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Personalizar Perfil</h5>
+
+      <p id="contadorAtualizacoes"> - Perfil ainda não foi atualizado - </p>
+
+      <!-- Form Nome -->
+      <form id="formPerfil">
+
+        <div class="mb-3">  <!-- Classes -->
+          <label for="inputNome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="inputNome" name="nome"> <!-- id para javascrip -->
+        </div>
+
+  <!-- Form Frase aoresentação -->
+        <div class="mb-3">
+          <label for="inputFrase" class="form-label">Frase de apresentação</label>
+          <textarea class="form-control" id="inputFrase" name="frase"rows="3"></textarea>
+        </div>
+
+        <!-- Input de Cor Favorita -->
+        <div class="mb-3">
+          <label for="inputCor" class="form-label">Cor favorita</label>
+          <input type="color" class="form-control form-control-color" id="inputCor" name="cor">
+        </div>
+
+        <!-- Input de Fotografia -->
+        <div class="mb-3">
+          <label for="inputFoto" class="form-label">Foto (URL)</label>
+          <input type="url" class="form-control" id="inputFoto" name="foto">
+        </div>
 
 
-  </body>
+        <div class="d-flex gap-2">
+
+            <!-- Botão ATUALIZAR PERFIL -->
+          <button type="submit" class="btn btn-dark" 
+          id="btnAtualizarPerfil">Atualizar Perfil</button>
+    
+    </div>
+  </form> 
   
-</html>
+  <!-- Botão RESET -->
+          <button class="btn btn-danger" id="btnReset">Reset</button>
+        </div>
+  </div>
+
+
+  <!-- Botão voltar ao topo -->
+  <div class="text-center mt-4 mb-4">
+    <a href="#" class="btn btn-dark">▲ subir</a>
+
+
+  </div>
+  </body>
+    
+  </html>
